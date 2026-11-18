@@ -1,0 +1,26 @@
+# Données volumineuses du kit TPCx-BB (≈ 1 Go) : ne pas versionner
+retail_project/
+*.dat
+
+# Archives et fichiers temporaires (dont verrous LibreOffice)
+*.zip
+*.tar.gz
+.~lock.*#
+*.tmp
+*~
+
+# Secrets et identifiants
+.env
+*.key
+*.pem
+*.jks
+*.p12
+credentials*
+nifi-credentials*
+Generated*NiFi*.txt
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
