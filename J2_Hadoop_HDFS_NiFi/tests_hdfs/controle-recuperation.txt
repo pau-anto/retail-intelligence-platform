@@ -1,0 +1,12 @@
+# Contrôle de la récupération depuis HDFS - 2026-11-17 15:31:53
+
+$ hdfs dfs -get /retail-lake/raw/tpcxbb/initial/store_sales.dat   (historique, ligne 192)
+
+$ stat -c "%s octets  %y  %n" store_sales.dat
+92764700 octets  2026-11-17 12:43:07.278974942 +0100  /home/pauline/Documents/IPSSI/DataLake Warehouse Lakehouse/store_sales.dat
+
+$ sha256sum store_sales.dat
+7e0a7f16b47483741754bb641c92601dd7384dacc8331d0bcfb8abac82ed3d2e  /home/pauline/Documents/IPSSI/DataLake Warehouse Lakehouse/store_sales.dat
+
+Empreinte de référence (source locale et HDFS) : 7e0a7f16b47483741754bb641c92601dd7384dacc8331d0bcfb8abac82ed3d2e
+Conclusion : la copie récupérée est identique au fichier stocké dans HDFS.
