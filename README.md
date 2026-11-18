@@ -14,3 +14,4 @@ Auteure : Pauline Antognelli
 |---|---|---|---|
 | J1 | Besoin métier, exploration, architecture | UC-01, UC-02 | en cours |
 | J2 | Hadoop, HDFS, NiFi | UC-03, UC-04 | à ranger |
+J3 | Transformation, qualité des données et Data Lakehouse | UC06 | en cours |
