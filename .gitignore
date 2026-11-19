@@ -24,3 +24,13 @@ Generated*NiFi*.txt
 Thumbs.db
 .vscode/
 .idea/
+
+data/
+outputs/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.crc
+spark-warehouse/
+metastore_db/
+derby.log
