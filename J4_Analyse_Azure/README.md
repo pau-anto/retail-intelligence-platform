@@ -12,22 +12,18 @@ Toutes les données sont **synthétiques** (jeu TPCx-BB). Les conclusions décri
 ## 1. Contenu du dossier
 
 ```
-J4/
+J4_Analyse_Azure/
 ├── README.md                          ce fichier (J4-11)
-├── requirements.txt                   dépendances Python
 ├── analytics/
 │   ├── notebooks/TP4_Retail_Intelligence.ipynb     calculs, analyses, visualisations, dépôt Azure
-│   ├── scripts/                       scripts utilitaires (schéma d'architecture)
-│   ├── visualizations/                3 graphiques (PNG)
-│   └── outputs/                       sorties de calcul éventuelles
+│   └── visualizations/                3 graphiques (PNG)
 ├── docs/
 │   ├── analytics/                     documents UC-08
 │   └── cloud/                         documents UC-07
-├── azure/
-│   ├── architecture/azure-architecture.png         schéma d'architecture (J4-07)
-│   ├── demo/ca_par_mois/              fichier de démonstration et manifeste déposés dans Azure
-│   └── evidence/                      captures P01 à P16
-└── tests/                             contrôles de 
+└── azure/
+    ├── architecture/azure-architecture.png         schéma d'architecture (J4-07)
+    ├── demo/ca_par_mois/              fichier de démonstration et manifeste déposés dans Azure
+    └── evidence/                      captures P01 à P17
 ```
 
 ## 2. Inventaire des livrables
