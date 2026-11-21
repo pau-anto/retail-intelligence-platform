@@ -1,0 +1,8 @@
+{
+  "fichier": "ca_par_mois.parquet",
+  "taille_octets": 2182,
+  "sha256": "1ef94fcaa57cdb94d852802e2c0bb89a846720a07001eff7619b5bb3cb9b61ff",
+  "lignes": 60,
+  "source": "gold/ca_par_mois (TP3, CA brut _c15)",
+  "prepare_le": "2026-11-20T16:32:53+00:00"
+}
